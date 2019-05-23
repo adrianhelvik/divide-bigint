@@ -1,9 +1,13 @@
 {
   "name": "divide-bigint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "cjs/index.js",
   "module": "esm/index.mjs",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianhelvik/divide-bigint"
+  },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
