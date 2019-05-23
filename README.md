@@ -8,10 +8,10 @@ that the result will fit in a 64 bit float.
 ```javascript
 import divide from 'divide-bigint'
 
-divide(5000000000000000000000000n, 2000000000000000000000000n) // -> 2.5
-divide(5n, 2) // -> 2.5
-divide(5, 2n) // -> 2.5
-divide(5, 2) // 2.5
+divide(5000000000000000000000000n, 2000000000000000000000000n)
+divide(5n, 2)
+divide(5, 2n)
+divide(5, 2)
 ```
 
 ## Supported environments
