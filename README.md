@@ -13,9 +13,9 @@ divide(5000000000000000000000000n, 2000000000000000000000000n)
 ```
 
 ## Supported environments
-- ✅ Polyfilled environments.
-- ✅ Webpack (through module-field).
-- ✅ Node.js
+- Polyfilled environments.
+- Webpack (through module-field).
+- Node.js
 
 ## Licence
 
