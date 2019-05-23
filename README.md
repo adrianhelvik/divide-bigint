@@ -19,6 +19,7 @@ divide(5, 2)
 - Polyfilled environments.
 - Webpack (through module-field).
 - Node.js
+- Native browser imports
 
 ## Licence
 
