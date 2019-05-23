@@ -1,0 +1,32 @@
+{
+  "name": "divide-bigint",
+  "version": "1.0.0",
+  "main": "cjs/index.js",
+  "module": "esm/index.mjs",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "chalk": "^2.4.2",
+    "nodemon": "^1.19.0"
+  },
+  "scripts": {
+    "start": "nodemon --experimental-modules tests.mjs",
+    "test": "node --experimental-modules tests.mjs",
+    "build": "rm -rf cjs && mkdir cjs && babel esm/index.mjs > cjs/index.js",
+    "prepublish": "echo 'Testing esm...' && npm run test && npm run build && echo 'Testing cjs...' && node tests.js"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "babel-plugin-add-module-exports"
+    ]
+  },
+  "dependencies": {
+    "is-bigint": "^1.0.0"
+  }
+}
