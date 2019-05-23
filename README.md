@@ -1,8 +1,7 @@
 # divide-bigint
 
-A simple library for a simple use case. You have two numbers,
-either or both is a bigint and you need to divide them, knowing
-that the result will fit in a 64 bit float.
+A dependency-free library for dividing two numbers, where either
+or both may be a BigInt, and the result should be a 64bit float.
 
 ## Usage
 ```javascript

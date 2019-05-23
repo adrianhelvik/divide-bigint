@@ -1,6 +1,6 @@
 {
   "name": "divide-bigint",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "cjs/index.js",
   "module": "esm/index.mjs",
   "license": "MIT",
@@ -30,8 +30,5 @@
     "plugins": [
       "babel-plugin-add-module-exports"
     ]
-  },
-  "dependencies": {
-    "is-bigint": "^1.0.0"
   }
 }
